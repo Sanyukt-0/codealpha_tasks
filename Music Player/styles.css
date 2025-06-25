@@ -1,0 +1,88 @@
+body {
+  background: linear-gradient(to right, #b24592, #f15f79);
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.player {
+  width: 320px;
+  background: #2d2b4e;
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.player h2,
+.player h4 {
+  margin: 10px 0;
+  color: #ffb6c1;
+}
+
+.controls button {
+  font-size: 1.5rem;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  background: #4c3c88;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.controls button:hover {
+  background: #6d57b1;
+}
+
+.progress-container {
+  background: #4a4168;
+  height: 8px;
+  width: 100%;
+  border-radius: 5px;
+  margin: 15px 0;
+  cursor: pointer;
+  position: relative;
+}
+
+.progress {
+  height: 8px;
+  background: #ff5fa2;
+  width: 0%;
+  border-radius: 5px;
+}
+
+.time {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: #e0d4f5;
+}
+
+#volume {
+  width: 100%;
+  margin-top: 10px;
+  accent-color: #ff5fa2;
+}
+
+#playlist {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+#playlist li {
+  padding: 6px;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  color: #f8dfff;
+}
+
+#playlist li:hover {
+  background: #3a3266;
+}
